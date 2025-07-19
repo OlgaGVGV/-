@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Анна Иванова – Преподаватель английского языка</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f0f4ff, #fdfbff);
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header, section, footer {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header {
+      background: linear-gradient(to right, #6366f1, #8b5cf6);
+      color: white;
+    }
+    h1, h2 {
+      margin-bottom: 15px;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    #hero {
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      animation: fadeInUp 1s ease-out;
+    }
+    .hero-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    }
+    .hero-text {
+      max-width: 600px;
+      font-size: 1.1rem;
+    }
+    section {
+      opacity: 1 !important;
+      transform: none !important;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "💡 ";
+    }
+    footer {
+      background-color: #f1f5f9;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Анна Иванова</h1>
+    <p>Преподаватель английского языка с юмором и подходом 😄</p>
+  </header>
+
+  <section id="hero">
+    <img src="A_photograph_of_a_young_Caucasian_woman_with_shoul.png" alt="Анна Иванова – преподаватель английского языка" class="hero-img">
+    <div class="hero-text">
+      <h2>Английский без стресса и скуки</h2>
+      <p>Каждый урок — это не только грамматика, но и живое общение, поддержка и даже шутка-другая. Моя цель — чтобы вы не боялись говорить. Даже если ваш кот понимает английский лучше вас — это временно 😉</p>
+    </div>
+  </section>
+
+</body>
+</html>
